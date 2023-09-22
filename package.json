@@ -15,7 +15,7 @@
   },
 
   "scripts": {
-    "start": "npm run minify && npm run render && npm run compile && npm run serve",
+    "start": "bun minify && bun render && bun compile && bun serve",
     "serve": "cd www && ../scripts/server.js",
     "compile": "./scripts/compile.js",
     "minify": "./scripts/minify.js",

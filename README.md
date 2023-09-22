@@ -20,16 +20,16 @@ The recommended way to get started is to clone a `create-nue` repository and pla
 
 ``` sh
 # clone the repository
-git clone https://github.com/nuejs/create-nue.git
+git clone git@github.com:Sakakky-6825/nue-bun-tutorial.git
 
 # cd to your newly created app
-cd create-nue
+cd nue-bun-tutorial
 
 # install dependencies
-npm install
+bun install
 
 # Build demo site and start a HTTP server
-npm run start
+bun start
 
 # Open the demo on the browser
 open "http://localhost:8080"
